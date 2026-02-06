@@ -19,23 +19,28 @@ the Snowball-generated code, are well implemented, etc.  These projects aren't
 endorsed or recommended as such, but we hope they may be of interest.
 </p>
 
-<h3><a href="https://github.com/coral-media/php-snowball">PHP Snowball (native PHP extension)</a></h3>
+<h3><a href="https://coral-media.github.io/php-snowball">PHP Snowball (native PHP extension)</a></h3>
 
 <p>
-(added 2026) A native PHP extension providing bindings to the C implementation
-of Snowball (libstemmer). The extension exposes Snowball stemmers directly to PHP
-with minimal overhead and is designed for modern PHP runtimes. Compatible with PHP > 8.1.
+A native PHP extension providing bindings to the Snowball's C implementation. The extension exposes Snowball 
+stemmers directly to PHP with minimal overhead and is designed for modern PHP runtimes. 
+Compatible with PHP versions > 8.1.
 </p>
 
 <p>
-The extension is distributed using
+Distributed using
 <a href="https://github.com/php/pie">PIE</a>, the next-generation PHP extension
-installer, and can be installed with:
+installer. Windows users can download the pre-compiled extension from
+<a href="https://github.com/coral-media/php-snowball/releases">releases page</a>
 </p>
 
 <pre>
 pie install coral-media/php-snowball
 </pre>
+
+<p>
+Source Code: <a href="https://github.com/coral-media/php-snowball">
+</p>
 
 <h3><a href="https://github.com/tebeka/snowball">libstemmer in Go</a></h3>
 <p>
